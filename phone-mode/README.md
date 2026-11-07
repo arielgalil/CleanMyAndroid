@@ -63,6 +63,9 @@
 - **באנדרואיד 17** הסרה (Uninstall) של אפליקציות מערכת נחסמת. התפריט משתמש רק בהשבתה, שעדיין עובדת.
 - עוד: [docs/TROUBLESHOOTING.md](../docs/TROUBLESHOOTING.md).
 
+## Claude Code על הטלפון
+אפשר גם להריץ Claude Code עצמו בתוך Ubuntu ב‑Termux (proot‑distro), ולעבוד עם הפרומפט הרגיל: **[CLAUDE-CODE-IN-TERMUX.md](CLAUDE-CODE-IN-TERMUX.md)** (לא נבדק על מכשיר אמיתי).
+
 ## Shizuku וכלים אחרים
 אפליקציות כמו Canta ו‑Shizuku עושות משהו דומה, אבל אינן קשורות לפרויקט הזה ואין בהן את הגנות ישראל
 (התרעות חירום, VoLTE). הפרויקט הזה לא מתיימר להחליף אותן — רק לשמור על הכללים.

@@ -24,7 +24,7 @@ through the phone step by step, asking before anything that depends on your pref
 
 ## No computer? Phone mode
 You can also run everything on the phone itself with Termux and Wireless debugging, using a guided menu:
-[phone-mode/README.md](phone-mode/README.md) (Hebrew guide, English menu). Try it on a spare phone first: if something breaks,
+[phone-mode/README.md](phone-mode/README.md) (Hebrew guide, English menu). Claude Code can also run on the phone inside proot-distro: [guide](phone-mode/CLAUDE-CODE-IN-TERMUX.md) and [PROMPT-PHONE.md](PROMPT-PHONE.md) (untested on a real device). Try it on a spare phone first: if something breaks,
 there is no second device to restore from.
 
 ## Three steps

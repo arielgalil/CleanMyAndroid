@@ -28,6 +28,7 @@ to do on the phone before you do it.
 - `PROMPT.md` — the prompt people paste. Keep it in sync with the tools.
 - `tools/` — bash over adb. `common.sh` (shared, PROTECTED list), `backup.sh`, `disable.sh`, `restore.sh`,
   `check.sh`, `shot.sh`, `finish.sh`. State lives in `~/.cleanyourphone/<model_serial>/`.
+- `PROMPT-PHONE.md` — wrapper prompt for when Claude Code runs on the phone itself (Termux + proot-distro); it reuses `PROMPT.md`, so keep them in sync.
 - `phone-mode/` — Termux menu (`menu.sh`) and Hebrew guide for running everything on the phone itself; `tools/connect-local.sh` pairs adb to the phone via Wireless debugging. English menu on purpose (Termux has no RTL).
 - `examples/<brand>/starter.txt` — starting lists. Lines that start with `#` are off; uncomment only after
   checking the package exists on this phone and the person agreed.
