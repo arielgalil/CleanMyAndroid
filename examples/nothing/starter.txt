@@ -1,0 +1,5 @@
+# Nothing (Nothing OS 3/4) — starter list. Close to stock.
+com.vilykke.lockscreen
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system

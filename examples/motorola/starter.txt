@@ -1,0 +1,12 @@
+# Motorola — starter list. Uncommented = safe candidates.
+com.motorola.demo
+com.motorola.help
+com.motorola.genie
+com.glance.lockscreenM
+com.motorola.brapps
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+# Caution
+# com.motorola.ccc.ota               # update service, often protected
+# com.motorola.ccc.devicemanagement

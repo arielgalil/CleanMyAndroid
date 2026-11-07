@@ -1,0 +1,32 @@
+# Samsung (One UI 6/7/8) — starter list. Uncommented = safe candidates.
+# Lines starting with # stay on. Check each exists on the phone, ask the person, then split into batches of 5-10.
+# Ads / profiling
+com.samsung.android.rubin.app
+com.samsung.android.beaconmanager
+com.samsung.android.app.spage
+com.glance.ailockscreen
+# Pre-installed third-party
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+# com.microsoft.skydrive          # OneDrive — ask
+# com.microsoft.appmanager        # Link to Windows — ask
+# Bixby (ask: do you use Bixby?)
+# com.samsung.android.bixby.agent
+# com.samsung.android.bixby.wakeup
+# com.samsung.android.app.settings.bixby
+# com.samsung.systemui.bixby2
+# com.samsung.android.bixbyvision.framework
+# com.samsung.android.visionintelligence
+# Extras
+com.samsung.android.voc
+com.samsung.android.app.tips
+# com.samsung.android.aremoji
+# com.samsung.android.aremojieditor
+# com.samsung.android.ardrawing
+# com.samsung.android.stickercenter
+# Ask first
+# com.sec.android.app.sbrowser     # Samsung Internet — only if another browser is default
+# com.samsung.android.app.routines # caution: Modes & Routines
+# com.sec.android.app.samsungapps  # caution: Galaxy Store (Samsung app updates)
+# com.samsung.android.themestore   # caution

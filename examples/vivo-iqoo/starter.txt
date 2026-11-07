@@ -1,0 +1,22 @@
+# Vivo / iQOO (Funtouch, OriginOS) — starter list. Uncommented = safe candidates.
+# Funtouch 12/13 refuses some of its own apps (DELETE_FAILED_USER_RESTRICTED). Don't bypass.
+com.vivo.hiboard
+com.vivo.globalsearch
+com.vivo.magazine
+com.vivo.game
+com.vivo.space
+com.vivo.website
+com.iqoo.website
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+# Ask
+# com.vivo.browser
+# com.vivo.assistant
+# com.vivo.agent
+# com.android.bbkmusic
+# Caution
+# com.bbk.appstore
+# com.vivo.appstore
+# com.bbk.theme
+# com.bbk.cloud

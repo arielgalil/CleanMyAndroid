@@ -1,0 +1,25 @@
+# OnePlus / Oppo / Realme (OxygenOS, ColorOS, realme UI) — starter list. Uncommented = safe candidates.
+# ColorOS may silently refuse ("new state: default"); disable.sh reports that as FAIL. Don't retry.
+# Ads / telemetry
+com.opos.ads
+com.heytap.mcs
+com.nearme.statistics.rom
+com.heytap.pictorial
+com.glance.internet
+# Pre-installed third-party
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+# Duplicates (ask)
+# com.heytap.browser
+# com.heytap.music
+# com.coloros.video
+# com.heytap.speechassist
+# com.heytap.quicksearchbox
+# Caution
+# com.heytap.openid
+# com.heytap.market               # system app updates
+# com.heytap.themestore           # disable only, never uninstall
+# com.heytap.cloud
+# com.coloros.assistantscreen     # some launchers lose the widget picker
+# com.coloros.phonemanager        # payment protection

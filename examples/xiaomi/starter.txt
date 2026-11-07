@@ -1,0 +1,26 @@
+# Xiaomi / Redmi / POCO (MIUI 14, HyperOS 1-3) — starter list. Uncommented = safe candidates.
+# HyperOS 2+ may refuse disabling: then ask before re-running the batch with ALLOW_UNINSTALL=1.
+# Also do the MSA revoke in Settings (docs/settings-toggles.md).
+# Ads / telemetry
+com.miui.msa.global
+com.miui.analytics
+com.miui.android.fashiongallery
+com.miui.hybrid
+com.miui.hybrid.accessory
+# Pre-installed third-party
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+# Duplicates (ask)
+com.xiaomi.mipicks
+# com.mi.globalbrowser             # Mi Browser — only if another browser is default
+# com.miui.videoplayer             # Mi Video — ask
+# com.miui.player                  # Mi Music — ask
+# Caution
+# com.miui.daemon
+# com.miui.bugreport
+# com.xiaomi.joyose                # thermal/game profiles
+# com.xiaomi.discover              # system app updater
+# com.miui.yellowpage              # caller ID
+# com.xiaomi.aicr                  # AI engine
+# com.miui.cloudservice            # Mi Cloud, Find Device

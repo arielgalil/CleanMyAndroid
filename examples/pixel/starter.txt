@@ -1,0 +1,9 @@
+# Google Pixel — starter list. Pixels are close to stock: little to remove.
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+# Ask first (each one turns off features the person may use):
+# com.google.android.as                     # Android System Intelligence: Live Caption, Now Playing, Smart Reply
+# com.google.android.apps.wellbeing         # Digital Wellbeing: Bedtime, Focus, parental controls
+# com.google.android.projection.gearhead    # Android Auto
+# com.google.android.googlequicksearchbox   # Google app: Assistant, At a Glance, Discover
