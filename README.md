@@ -16,6 +16,10 @@
 
 ---
 
+## בלי מחשב: ישירות מהטלפון
+
+אפשר גם להריץ הכול מתוך הטלפון עצמו עם Termux ו‑"ניפוי באגים אלחוטי", בתפריט מודרך: **[phone-mode/README.md](phone-mode/README.md)**. מומלץ קודם על טלפון משני.
+
 ## מה צריך
 
 | | |
@@ -106,6 +110,7 @@ CLAUDE.md              כללי עבודה ל-Claude Code בתיקייה הזו
 tools/                 סקריפטים: backup, disable, restore, check, shot, finish
 examples/<brand>/      רשימות התחלה לפי יצרן
 docs/                  מדריכים: Claude Code, יצרנים, הגדרות ידניות, פתרון תקלות
+phone-mode/            מצב טלפון: תפריט ל-Termux, בלי מחשב
 tests/                 בדיקת רשימת ההגנה (בלי טלפון)
 ```
 

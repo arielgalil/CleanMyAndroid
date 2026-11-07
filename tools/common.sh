@@ -26,6 +26,9 @@ require_device() {
 device_id() {
   local s m
   s=$("${ADB[@]}" get-serialno 2>/dev/null | tr -d '\r')
+  # Wireless/local connections (phone mode) show host:port, and the port changes every time.
+  # Use Android's own stable id then, so the record of disabled apps is found again.
+  case "$s" in *:*) s=$(ash settings get secure android_id);; esac
   m=$(ash getprop ro.product.model | tr ' /' '__')
   echo "${m}_${s}"
 }

@@ -28,6 +28,7 @@ to do on the phone before you do it.
 - `PROMPT.md` — the prompt people paste. Keep it in sync with the tools.
 - `tools/` — bash over adb. `common.sh` (shared, PROTECTED list), `backup.sh`, `disable.sh`, `restore.sh`,
   `check.sh`, `shot.sh`, `finish.sh`. State lives in `~/.cleanyourphone/<model_serial>/`.
+- `phone-mode/` — Termux menu (`menu.sh`) and Hebrew guide for running everything on the phone itself; `tools/connect-local.sh` pairs adb to the phone via Wireless debugging. English menu on purpose (Termux has no RTL).
 - `examples/<brand>/starter.txt` — starting lists. Lines that start with `#` are off; uncomment only after
   checking the package exists on this phone and the person agreed.
 - `docs/brands.md` — per-brand notes and risks. `docs/settings-toggles.md` — no-adb privacy toggles (Hebrew).

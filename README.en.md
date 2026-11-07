@@ -22,6 +22,11 @@ through the phone step by step, asking before anything that depends on your pref
 - `adb` (Android platform-tools): `brew install --cask android-platform-tools` · `winget install Google.PlatformTools` · `sudo apt install adb`
 - 20–40 minutes in one sitting
 
+## No computer? Phone mode
+You can also run everything on the phone itself with Termux and Wireless debugging, using a guided menu:
+[phone-mode/README.md](phone-mode/README.md) (Hebrew guide, English menu). Try it on a spare phone first: if something breaks,
+there is no second device to restore from.
+
 ## Three steps
 1. **Phone:** Settings → About phone → tap *Build number* 7 times (Samsung: Software information → Build number;
    Xiaomi: OS version). Developer options → **USB debugging** on. Xiaomi: also *Install via USB* and
@@ -64,6 +69,7 @@ CLAUDE.md            rules Claude Code follows in this folder
 tools/               backup, disable, restore, check, shot, finish (bash over adb)
 examples/<brand>/    starter lists
 docs/                brands.md, settings-toggles.md (Hebrew), TROUBLESHOOTING.md, CLAUDE-CODE.md (Hebrew)
+phone-mode/          Termux menu for running it on the phone itself
 tests/               protected-list checks, no phone needed
 ```
 
